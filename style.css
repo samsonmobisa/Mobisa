@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Georgia',  sans-serif;
+    box-sizing:border-box;
+}
+
+.user{
+    width: fit-content;
+    margin: 150px auto;
+    display: flex;
+}
+
+.user img{
+    width: 300px;
+    height: 180px;
+    cursor: pointer;
+    border-radius: 30px;
+    position: relative;
+    z-index: 100;
+    box-shadow: 10px 10px 10px rgba(47, 8, 245, 0.3)
+}
+
+.info{
+    padding: 10px 50px;
+}
+
+.info h1{
+    font-size: 80px;
+    font-weight: 500;
+}
+
+.info p{
+    display: block;
+    line-height: 26px;
+    color: aqua;
+}
+
+.info a{
+    color:whitesmoke;
+    font-size: 15px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 12px 40px;
+    border-radius: 30px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.linkedin{
+    background-color: cornflowerblue;
+}
+
+.linkedin:hover{
+    background-color: blue;
+}
+
+.download{
+    background-color: cornflowerblue;
+}
+
+.download:hover{
+    background-color: blue;
+}
+
+.info span{
+    color: #4f40ff;
+    font-weight: 500;
+}
+
+.about{
+    display: grid;
+    place-items: center;
+    text-align: center;
+    line-height: 24px;
+    /* justify-content: center; */
+    /* display: block; */
+}
+
+.about a{
+    margin-top: 10px;
+    background-color: grey;
+    font-size: 16px;
+    /* border-radius: 24px; */
+    cursor: pointer;
+}
+
+.about a:hover{
+    background-color: black;
+}
+
+.about h2{
+    background-color: lightblue;
+    color: gray;
+    font-size: 30px;
+    padding: 6px 38px;
+    width: 50%;
+    text-align: center;
+    border-radius: 3px;
+    margin-top: 20px;
+}
+
+.about h2:hover{
+    color: white;
+    background-color: blue;
+}
+
+.about img {
+    margin-top: 50px;
+    width: 18%;
+    height: 24%;
+}
+
+.about img:hover{
+    box-shadow: 10px 10px 10px rgba(46, 18, 185, 0.925);
+    transform: scale(2.1);
+    transition: transform 0.9s ease;
+}
+
+.tech-grid{
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   grid-gap: 15px;
+   text-align: center;
+}
+
+.WhatsApp{
+    background-color: lightgreen;
+
+} 
+
+.WhatsApp:hover {
+    /* background-color: lightgreen; */
+	background: green;
+}
+
+
+.footer{
+    text-align: center;
+}
