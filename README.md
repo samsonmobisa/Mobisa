@@ -18,7 +18,7 @@
 1. Am a Front-end Developer
 
 # Am confident In
-1. ![](img/HTML.png
+1. ![](img/HTML.png)
 2. ![](img/CSS.png)
 3. ![](img/JavaScript.png)
 
